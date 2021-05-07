@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7710840361535007203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7710840361535007213}
+  - component: {fileID: 7710840361535007202}
+  m_Layer: 0
+  m_Name: mapMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7710840361535007213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7710840361535007203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7710840361535007202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7710840361535007203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 383aa7bcce96bbf4b8f515fa14389609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mazeColumns: 0
+  mazeRows: 0
+  wallRemover: {fileID: 7862531979227588465, guid: 5cb500c15383e0d4ea4d8dca4848f215,
+    type: 3}
+  playerPrefab: {fileID: 8944721425470421142, guid: f02a1d4a91e3d4f4f8bc0b39c02ab6bf,
+    type: 3}
+  cellPrefab: {fileID: 1031443774285031779, guid: b2053de8eed4df84286ae77aeb2ff20e,
+    type: 3}
+  bombPrefab: {fileID: 6525067607248611941, guid: 226acb29aa36d5243b9f89b583999ac8,
+    type: 3}
+  goldPrefab: {fileID: 1151241488539372310, guid: 1a3b2cd023dcfdb4f9be68ab44e86012,
+    type: 3}
+  enemyPrefab: {fileID: 4248814846079236176, guid: c7cee888136542c458ab72e596fa4f13,
+    type: 3}
+  finishPrefab: {fileID: 5119768584402893429, guid: ba7aeea7b54833d4fa03efdd5a41fea9,
+    type: 3}
+  startPoint: {x: 0, y: 0}
+  finishPoint: {x: 0, y: 0}
+  bombLocations: []
+  goldLocations: []
+  path: []
+  enemies: []
+  game:
+    m_Handle: 0
+  overheadCam: {fileID: 9143027512527559950, guid: 1f9c95105d9513a46a1e8090e7dceaea,
+    type: 3}
